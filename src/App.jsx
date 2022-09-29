@@ -1,5 +1,6 @@
 import TabSelect from './components/TabSelect';
 import TabContentDisplay from './components/TabContentDisplay';
+import CreateTabButton from './components/CreateTabButton';
 
 function App() {
 	return (
@@ -10,6 +11,9 @@ function App() {
 				</div>
 				<div>
 					<TabContentDisplay />
+				</div>
+				<div className='mt-4 text-center'>
+					<CreateTabButton />
 				</div>
 			</div>
 		</div>
