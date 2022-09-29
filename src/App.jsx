@@ -1,11 +1,11 @@
-import TabSelect from './components/tabSelect';
+import TabSelect from './components/TabSelect';
 import TabContentDisplay from './components/TabContentDisplay';
 
 function App() {
 	return (
 		<div className='App'>
-			<div className='container mx-auto'>
-				<div className='flex'>
+			<div className='container w-1/2 mx-auto my-10 border-solid border-4 border-gray-500 p-10'>
+				<div className='flex mb-4'>
 					<TabSelect />
 				</div>
 				<div>
