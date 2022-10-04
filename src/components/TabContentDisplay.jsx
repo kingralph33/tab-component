@@ -3,6 +3,7 @@ import React from 'react';
 const TabContentDisplay = () => {
 	return (
 		<>
+		{/* Display the content specific to which tab is chosen */}
 			<h1 className='border-solid border-2 border-gray-500 p-6'>
 				Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam
 				semper purus vel dapibus viverra. Ut tincidunt hendrerit
